@@ -1,0 +1,383 @@
+@media (max-width: 767px) {
+
+.content-purple {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.content-purple .top-header .title {
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.content-purple .top-header .description {
+  font-size: 1.14em;
+  margin-bottom: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content-purple .content-boxes .content-box .title {
+  font-size: 1.40em;
+  margin-bottom: 6px;
+}
+
+.content-purple .content-boxes .content-box .description {
+  font-size: 1.10em;
+  margin-bottom: 11px;
+}
+
+}@media (max-width: 767px) {
+
+.footer-navy-blue {
+  padding-bottom: 30px;  
+  padding-top: 6px;
+}
+
+.footer-navy-blue .footer-copyright {
+  margin-top: 2px;
+}
+
+.footer-navy-blue  .footer-copyright {
+  font-size: 1em;
+}
+
+.footer-navy-blue .footer-menu .menu-wrap {
+  margin-top: 3px;
+}
+
+.footer-navy-blue .footer-menu ul li a {
+  padding-bottom: 10px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Header / Header brown  ----------------------------*/
+/*--------------------------------------------------------------------------*/ 
+@media (max-width: 767px) {
+
+.header-brown-content .main-title-second {
+  font-size: 4em;
+ }
+
+.header-brown-content  .main-title-first {
+  line-height: 1em;
+  font-size: 2em;
+}
+
+.header-brown-content .main-block-inner .main-desc {
+  padding: 0px 10%;
+}
+
+.header-brown-menu .navbar-scrolled .navbar {
+  min-height: 0px; 
+}
+
+.header-brown-menu .navbar-scrolled .navbar-toggle {
+  margin-right: 0px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+.header-brown-menu .navbar-scrolled .logo img {
+  margin-top: 17px;
+  margin-bottom: 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+.header-brown-menu .navbar-scrolled .navbar-nav > li > a {
+  padding: 5px 8px;
+  padding-top: 19px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Header / Header brown  -------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Stats / stats orange  -----------------------------*/
+/*--------------------------------------------------------------------------*/
+/* CSS from jquery-asProgress.js library*/
+@media (max-width: 768px) { 
+
+.stat-stats-orange {
+  font-family: roboto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.stat-stats-orange  h2.title {
+  font-size: 1.9em;
+  padding-bottom: 8px;
+}
+
+.stat-stats-orange .stat-stats {
+  margin-top: 8px;
+}
+
+.stat-stats-orange .stat-stats .stat-stat {
+   margin: 15px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Stats / stats orange  --------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Testimonial / Testimonial orange  -----------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) { 
+
+.testimonial-orange {
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+
+.testimonial-grey-black .testi-arrow {
+  display: none;
+}
+
+.testimonial-grey-black .testi-body-wrap {
+  display: block;
+  float: left;
+}
+
+.testimonial-grey-black .testi-name-designation {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  float: right;
+  width: 100%;
+}
+
+.testimonial-grey-black  .carousel-control.right {
+  right: 48%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 30px;
+  /* background: orange !important; */
+  top: auto;
+}
+
+.testimonial-grey-black  .carousel-control.left {
+  right: 52%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 30px;
+  /* background: orange !important; */
+  top: auto;
+}
+
+ }
+/*--------------------------------------------------------------------------*/
+/*------------  End : Testimonial / Testimonial orange  --------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*----------------------  Begins : Team / Team Mirror ----------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) {  
+
+.team-mirror {
+  padding-top: 28px;
+  padding-bottom: 10px;
+}
+
+.team-mirror .team-header .desc {
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.team-mirror .team-inner {
+  padding-bottom: 0px;
+}
+
+.team-mirror  .carousel-inner {
+  padding-bottom: 10px;
+}
+
+.team-mirror  .carousel-inner .item {
+  margin: 0;
+}
+
+.team-mirror .right-side,
+.team-mirror .left-side,
+.team-mirror .right-side .team-image,
+.team-mirror .left-side .team-image {
+  text-align: center;
+  float: none;
+}
+
+.team-mirror .team-header {
+  margin-bottom: 0px;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {  
+
+.team-mirror .team-image  img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.team-mirror .team-content {
+  padding-left: 25px;
+}
+
+.team-mirror .team-header .desc {
+  padding-bottom: 0px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------  End : Team / Team Mirror  ------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Contact / Contact Pink  ---------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+
+.contact-pink {
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+
+.contact-pink h2 {
+  font-size: 36px;
+}
+
+.contact-pink address .contact-item {
+  font-size: 18px;
+}
+
+.contact-pink .follow-links a {
+  font-size: 23px;
+}
+
+.contact-pink address {
+  margin-bottom: 12px;
+}
+
+.contact-pink .contact-form {
+  margin-top: 18px;
+}
+
+.contact-pink  .form-group {
+  margin-bottom: 25px;
+}
+
+.contact-pink .btn {
+  width: 100%;
+}
+
+.contact-pink-map .google-map-wrap {
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+.contact-pink address .contact-item {
+  font-size: 16px;
+}
+
+.contact-pink .follow-links a {
+  font-size: 19px;
+}
+
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Contact / Contact Pink  ------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Blognews / Blog pink   ----------------------------*/
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+
+.blog-pink {
+  padding-top: 7px;
+  padding-bottom: 30px;
+}
+
+.blog-pink h2 {
+  font-size: 30px;
+}
+
+.blog-pink  .view-content{
+
+  margin-top: 0px;
+}
+  
+.blog-pink .view-content {
+  margin: 0px;
+}
+
+.blog-pink  .blog-title {
+  font-size: 1.5em;
+}
+
+.blog-pink  .blog-image {
+  width: 100%;
+}
+ 
+ .blog-pink  .meta-info {
+  width: 100%
+}
+
+.blog-pink .view-more a {
+  margin-bottom: 18px;
+}
+
+ .blog-pink  .meta-info {
+  padding-right: 0px;
+}
+
+.blog-pink  .descrip {
+  font-size: 1.15em;
+  line-height: 25px
+}
+
+.blog-pink  .view-more a{
+  padding: 5px 24px;
+  font-size: 17px;
+}
+
+}
+ 
+ @media (min-width: 769px) and (max-width: 1200px) {   
+ 
+.blog-pink  .blog-image {
+  width: 100%;
+}
+ 
+ .blog-pink  .meta-info {
+  width: 100%
+}
+
+.blog-pink .view-more a {
+  margin-bottom: 25px;
+}
+
+ .blog-pink  .meta-info {
+  padding-right: 0px;
+}
+ 
+}  
+/*--------------------------------------------------------------------------*/
+/*------------  End : Blognews / Blog pink   -------------------------------*/
+/*--------------------------------------------------------------------------*/

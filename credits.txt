@@ -1,0 +1,48 @@
+This file list images and its sources used in this template
+
+
+Image Websites Links: 
+http://picjumbo.com/
+https://unsplash.com/grid
+
+css-header-header-yellow-slider-main-background1.jpg
+Image-link: http://picjumbo.com/wp-content/uploads/IMG_7925-1300x866.jpg
+
+css-header-header-yellow-slider-main-background2.jpg
+Image-link: https://unsplash.imgix.net/46/3YNGIU4yRTO4DDifrEfA__MG_2885.jpg?q=75&amp;fm=jpg&amp;s=b7beed3209d5d7fc2bf73c47a4da2e52
+
+css-header-header-yellow-slider-main-background3.jpg
+Image-link: https://ununsplash.imgix.net/29/night-square.jpg?q=75&amp;fm=jpg&amp;s=9cfc48d0d880c2b44c9f8c0d65605a6a
+
+
+Image Websites Link: 
+http://picjumbo.com/
+
+css-header-header-dark-green-main-background.jpg
+Image-link: http://picjumbo.com/wp-content/uploads/HNCK1805-1300x866.jpg
+
+Image Websites Links: 
+http://pixabay.com/
+https://unsplash.com/grid
+
+content-image-header-header-navy-blue-slider-main-background1.jpg
+Image-link: http://pixabay.com/get/b8749884eb5ac48ecfe3/1422625514/sheep-472805_1280.jpg?direct
+
+content-image-header-header-navy-blue-slider-main-background2.jpg
+Image-link: https://ununsplash.imgix.net/23/beach-tracks.JPG?q=75&amp;fm=jpg&amp;s=625f767e3d0391f80559ee4b49eed4df
+
+content-image-header-header-navy-blue-slider-main-background3.jpg
+Image-link: https://unsplash.imgix.net/35/JOd4DPGLThifgf38Lpgj_IMG.jpg?q=75&amp;fm=jpg&amp;s=c4f6727025aba1d850d47d03eabc5e15
+
+content-image-header-header-navy-blue-slider-main-background4.jpg
+Image-link: https://ununsplash.imgix.net/39/vsSIIQbXTHCO1jBsKm4Q_IMG_1779_edt.jpg?q=75&amp;fm=jpg&amp;s=12a419a29dd3677e92af0a90b95d0dcc
+
+content-image-header-header-navy-blue-slider-main-background5.jpg
+Image-link: https://unsplash.imgix.net/reserve/kKvwBPaT9ucgomTWSQx9_switzerland-photo.jpg?q=75&amp;fm=jpg&amp;s=be3a8bcfecee1c4263bc78709ae1ce56
+
+Image Website Link:
+http://top1walls.com/
+	
+css-header-header-brown-main-background.jpg
+Image link: http://top1walls.com/walls/art-design/women-snow-coffee-cups--1547777-4398x3444.jpg
+

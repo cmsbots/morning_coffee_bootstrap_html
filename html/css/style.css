@@ -1,0 +1,1075 @@
+/* overrides the default bootstrap CSS */
+.btn,
+.form-control,
+.input-group-addon,
+.nav-tabs>li>a,
+.nav-pills>li>a,
+.breadcrumb,
+.pagination>li:last-child>a, 
+.pagination>li:last-child>span,
+.alert,
+.label,
+.progress,
+.container .jumbotron, 
+.container-fluid .jumbotron,
+.img-thumbnail,
+code ,
+pre,
+kbd ,
+.input-sm,
+.form-group-sm .form-control,
+.input-lg,
+.form-group-lg .form-control,
+.btn-link,
+.btn-lg,
+.btn-group-lg > .btn,
+.btn-sm,
+.btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn,
+.dropdown-menu,
+.btn-group-vertical > .btn:first-child:not(:last-child),
+.btn-group-vertical > .btn:last-child:not(:first-child),
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn,
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn,
+.input-group-addon,
+.input-group-addon.input-sm,
+.input-group-addon.input-lg,
+.nav-tabs > li > a,
+.nav-tabs.nav-justified > li > a  {
+  border-radius:0px;
+}
+.breadcrumb{
+  margin-bottom:0px;
+  padding: 8px 0;
+  
+}
+.dropdown-menu {
+  border-radius: 0px;
+  box-shadow: none;
+}
+.navbar-toggle {
+  margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a ,
+  .navbar,
+  .navbar-static-top,
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-toggle,
+  .navbar-toggle .icon-bar,
+  .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu,
+  .nav-pills > li > a,
+  .nav-tabs-justified > li > a   {
+    border-radius: 0px;
+  }
+}
+
+
+.breadcrumb,
+.pagination,
+.pagination > li:first-child > a,
+.pagination > li:first-child > span ,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span,
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span,
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span,
+.pager li > a,
+.pager li > span,
+.label,
+.badge,
+.container .jumbotron,
+.container-fluid .jumbotron,
+.thumbnail,
+.alert ,
+.progress,
+.list-group-item:first-child,
+.list-group-item:last-child,
+.panel,
+.panel-heading,
+.panel-footer,
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child,
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child,
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel-group .panel,
+.well,
+.well-lg,
+.well-sm,
+.modal-content,
+.tooltip-inner,
+.popover,
+.popover-title,
+.carousel-indicators li {
+     border-radius: 0px;
+}
+.btn,
+.btn:hover,
+.alert,
+.panel-title,
+.list-group-item.active, 
+.list-group-item.active:hover, 
+.list-group-item.active:focus,
+.panel-primary>.panel-heading,
+.carousel-control.left,
+.carousel-control.right {
+  background-image:none;
+}
+
+/* common for all the designs */
+body {
+  font-family:roboto;
+}
+
+.breadcrumb > li + li::before {
+  content:none;
+}
+.breadcrumb li,
+.breadcrumb li.active {
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+/* dropdown menu */
+.navbar-nav .fa {
+  float: right;
+  margin-left: 7px;
+  padding-top: 0px;
+  font-size: 1.3em;
+}
+.dropdown:hover>.dropdown-menu {
+  display:block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.navbar-inverse #navigation {
+  border: none;
+  width: 300px;
+  float: right;
+  background: #48D89B;
+  padding: 15px;
+  margin-right: 15px;
+  padding-top: 0px;
+  margin-top: -20px;
+}
+.navbar-inverse .navbar-header {
+  float: none;
+}
+.navbar-inverse a .fa,
+.navbar-inverse .dropdown .fa {
+  display:none !important;
+}
+
+@media (max-width: 750px) { 
+
+.dropdown-menu {
+  position:relative;
+  display:block;
+  box-shadow: none;
+  border-radius: 0px;
+  width:100%;
+  background: transparent;
+  border:none;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 0;
+}
+
+#collapse-navigation {
+  max-height: 100%;
+}
+
+.navbar-nav li a.
+.navbar-nav > li > a {
+  padding: 10px;
+  font-weight:bold;
+}
+
+.navbar-nav > li > a:focus, 
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.active,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover,
+.navbar-nav li a.active,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a.active {
+  border-left:5px solid #ffffff;
+  color:#ffffff;
+  background-color:transparent;
+}
+
+.navbar-nav a .fa,
+.dropdown .fa {
+  display:none !important;
+}
+}
+
+.sidebar .nav > li > a {
+  font-size: 18px;
+  padding: 3px 10px;
+}
+.sidebar .block {
+  margin-bottom:10px;
+  
+}
+
+section.main-container {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+h1.page-title {
+  margin-top:0px;
+  font-size:34px;
+}
+section.main-container p {
+  font-size: 16px;
+  line-height: 170%;
+}
+ 
+
+
+.sidebar .block-content {
+  padding:10px;
+}
+.sidebar h2,
+.sidebar h3 {
+  margin: 0px;
+  padding:10px;
+  font-size: 22px;
+  
+}
+.article-block h2,
+.article-block h3{
+  padding-bottom:10px;
+}
+.underline {
+  border-bottom:1px solid;
+}
+
+.img-fullwidth {
+  width:100%;
+}
+.google-map-wrap {
+  overflow:hidden;
+  height:320px;
+  width:100%;
+  margin-bottom:20px;
+}
+#gmap_canvas {
+  height:320px;
+  width:100%;
+}
+
+.contact-page-v4  .google-map-wrap,
+.contact-page-v4 #gmap_canvas {
+  height:130px;
+}
+ul.contact-list li {
+  margin-bottom:5px;
+  padding:5px 0px;
+}
+ul.contact-list li .fa{
+  width:30px;
+}
+.follow-links li a {
+  font-size: 20px;
+}
+.follow-links {
+  margin-top:10px;
+}
+.follow-links.icon-border li a{
+  border: 1px solid;
+  padding: 0px 5px;
+  width: 30px;
+  display: block;
+  text-align: center;
+  height: 30px;
+}
+.follow-links.follow-texts li{
+  margin-bottom:3px;
+  padding:0px;
+  height:30px;
+}  
+.follow-links.follow-texts li a{
+  font-size:15px;
+  padding-left: 10px;
+}
+.follow-links.follow-texts li .fa{
+  width: 40px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-top: 8px;
+}
+
+/*blog-page*/
+.blog-meta-data {
+  padding:10px 0px;
+}
+.blog-posted {
+  margin-left:20px;
+}
+.blog-comments {
+  margin-bottom:30px;
+}
+.comment-item {
+  margin-top:20px;
+}
+.comment-item .comment-item{
+  margin-left:60px;
+  
+}
+.comment-item>a {
+  margin-right:15px;
+}
+.blog-detail-v2 .blog-meta-data {
+  padding:5px 10px;
+  margin-top:10px;
+}
+.blog-detail-v2 .comment-heading {
+  padding:5px 10px;
+  border:1px dotted;
+  margin-bottom:5px;
+}
+.blog-detail-v3 .latest-blogs ul li {
+  clear: both;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+.blog-detail-v3 .latest-blogs ul li>a {
+  margin-right:10px;
+}
+ .content-purple {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.content-purple .top-header .title {
+  font-size: 2.34em;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.content-purple .top-header .description {
+  font-size: 1.30em;
+  margin-bottom: 21px;
+}
+
+.content-purple .content-boxes .content-box .title {
+  font-size: 1.83em;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.content-purple .content-boxes .content-box .description {
+  font-size: 1.20em;
+  margin-bottom: 28px;
+}.footer-navy-blue {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 45px;  
+  padding-top: 25px;
+}
+
+.footer-navy-blue .footer-message-title h2 {
+  font-size: 2.4em;
+  font-weight: normal;
+}
+
+.footer-navy-blue .footer-menu .menu-wrap {
+  text-align: center;
+  display: inline-block;
+  margin-top: 12px;
+}
+ 
+.footer-navy-blue .footer-menu ul li a {
+  padding: 0px 15px;
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+.footer-navy-blue .footer-menu ul li a:hover,
+.footer-navy-blue .footer-menu ul li a:focus {
+  background: transparent;
+  text-decoration: underline;
+}
+ 
+.footer-navy-blue  .footer-copyright {
+  margin-top: 21px;
+  font-size: 1.1em;
+}
+
+.footer-navy-blue  .footer-copyright a {
+  font-weight: bold;
+}/*--------------------------------------------------------------------------*/
+/*------------  Begins : Header / Header brown  ----------------------------*/
+/*--------------------------------------------------------------------------*/ 
+.header-brown-content {
+  background-image: url(
+  "images/css-header-header-brown-main-background.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 580px;
+}  
+
+.header-brown-content  .main-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-brown-content  .main-desc{
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+ 
+.header-brown-content  .main-title-first {
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.header-brown-content .main-title-second {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+.header-brown-menu nav {
+  margin-top: 15px;
+}
+
+.header-brown-menu #nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-brown-menu #navigation ul > li .active {
+  border-bottom: 2px solid;  
+}
+
+.header-brown-menu .navbar-nav > li > a:focus, 
+.header-brown-menu .navbar-nav > li > a:hover {
+  background: transparent;
+  color: none;
+  border-bottom: 2px solid;
+}
+
+.header-brown-menu .navbar-nav > li > a {
+  font-family: roboto;
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-transform: uppercase;
+}
+
+.header-brown-menu  .navbar-toggle {
+  border-radius: 0px;
+}
+
+.header-brown-menu .navbar-scrolled  {
+  border: none;
+  background-image: none;
+  background: #4e2e28;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.header-brown-menu .navbar-scrolled  .navbar  {
+  min-height: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.header-brown-menu .navbar-scrolled .logo img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-brown-menu .navbar-scrolled  .navbar-nav > li > a {
+  padding-top: 12px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Header / Header brown  -------------------------------*/
+/*--------------------------------------------------------------------------*/ 
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Stats / stats orange  -----------------------------*/
+/*--------------------------------------------------------------------------*/
+/* CSS from jquery-asProgress.js library*/
+.pie_progress {
+  text-align: center;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.pie_progress svg {
+  margin: 0 auto;
+}
+
+.pie_progress__content,
+.pie_progress__number,
+.pie_progress__label,
+.pie_progress__icon {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.pie_progress__number {
+  font-size: 42px;
+}
+
+.pie_progress__label {
+  margin-top: 32px;
+  font-size: 12px;
+}
+
+/*custom*/
+.stat-stats-orange {
+  font-family: roboto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.stat-stats-orange .stat-stats {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: -5px;
+  text-align:center;
+  margin-top: 38px;
+}
+
+.stat-stats-orange .stat-stats .stat-stat {
+  -webkit-flex: 0 0 180px;
+  -ms-flex: 0 0 180px;
+  flex: 0 0 180px;
+   margin: 20px;
+}
+ 
+.stat-stats-orange  h2.title {
+  text-align: center;
+  font-size: 2.4em;
+  padding-bottom: 7px;
+  margin-bottom: 0px;
+} 
+
+.stat-stats-orange .pie_progress {
+  text-align:center;
+}
+
+.stat-stats-orange .stat-desc {
+  font-size: 1.1em;
+  font-weight: normal;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+ 
+.stat-stats-orange .stat-stats .inner-box {
+  overflow:hidden;
+  width: 180px;  
+  margin: 0 auto;
+}
+
+.stat-stats-orange .stat-stat .pie_progress__number {
+  font-size: 2.5em;
+}
+
+.stat-stats-orange .stat-label {
+  font-size: 1.1em;
+  font-weight: normal;
+  display: block;
+  margin-top: 10px;
+} 
+/*--------------------------------------------------------------------------*/
+/*------------  End : Stats / stats orange  --------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Testimonial / Testimonial orange  -----------------*/
+/*--------------------------------------------------------------------------*/
+.testimonial-orange {
+  font-family: roboto;
+  padding-top: 28px;
+  padding-bottom: 30px;
+}
+
+.testimonial-orange h2 { 
+  font-size: 31px;
+  font-weight: normal;
+  padding-bottom: 17px;
+}  
+ 
+.testimonial-orange .testi-body {
+  display: block;
+  padding: 15px;
+  font-weight: lighter;
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.testimonial-orange .testi-name {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.testimonial-orange .carousel-inner {
+  border: 1px solid;
+}  
+
+.testimonial-orange .testi-name-designation {
+  font-size: 25px;
+  padding-bottom: 18px;
+}
+ 
+.testimonial-orange .carousel-control .fa {
+  font-sizE: 21px;
+  text-shadow: none;
+}
+
+.testimonial-orange  .carousel-control.right {
+  right: 20%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 5px;
+  top: auto;
+  padding-bottom: 18px;
+}
+
+.testimonial-orange  .carousel-control.left {
+  right: 80%;
+  left: auto;
+  width: 15px;
+  text-align: center;
+  bottom: 5px;
+  top: auto;
+  padding-bottom: 18px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Testimonial / Testimonial orange  --------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+/*----------------------  Begins : Team / Team Mirror ----------------------*/
+/*--------------------------------------------------------------------------*/
+.team-mirror {
+  font-family: roboto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.team-mirror .team-header {
+  margin-bottom: 20px;
+}
+
+.team-mirror .team-header h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.team-mirror .team-header .desc {
+  padding: 15px 15px;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.team-mirror .team-inner {
+  padding: 10px;
+  padding-bottom: 32px;
+}
+
+.team-mirror .right-side .team-image {
+  float: left;
+  text-align: right;
+  padding: 0px;
+}
+
+.team-mirror .right-side .team-content {
+  float: right;
+}
+
+.team-mirror .left-side {
+  text-align: right;
+}
+
+.team-mirror .left-side .team-image {
+  float: right;
+  text-align: left;
+  padding: 0px;
+}
+
+.team-mirror .left-side .team-content {
+  float: left;
+}
+
+.team-mirror .team-image  img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.team-mirror .team-name {
+  font-size: 26px;
+  font-weight: normal;
+  display: block;
+  text-transform: uppercase;
+}
+
+.team-mirror .team-designation {
+  display: block;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.team-mirror .team-body {
+  display: block;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.team-mirror .team-social {
+  display: block;
+  margin-top: 9px;
+}
+
+.team-mirror .team-social a {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.team-mirror .carousel-inner {
+  width: auto;
+}
+
+.mobile-carousel-controls {
+  padding: 15px;
+}
+
+.mobile-carousel-controls span {
+  width: 50%;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/*--------------------------------------------------------------------------*/
+/*----------------------  End : Team / Team Mirror  ------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Contact / Contact Pink  ---------------------------*/
+/*--------------------------------------------------------------------------*/
+.contact-pink {
+  padding-top: 38px;
+  padding-bottom: 50px;
+  font-family: roboto;
+}
+
+.contact-pink  .desc {
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: lighter;
+} 
+
+.contact-pink .contact-form  .desc {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contact-pink .contact-form {
+  margin-top: 11px;
+}
+
+.contact-pink  .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-pink .form-control {
+  border: 1px solid;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.contact-pink .btn {
+  font-size: 24px;
+  padding: 4px 45px;
+  float: right;
+}
+
+.contact-pink h2 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.contact-pink-map .google-map-wrap {
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+  margin-bottom:0px;
+}
+
+.contact-pink-map .google-map-wrap  #gmap_canvas {
+  height: 350px;
+  width: 100%;
+}
+
+.contact-pink-map .google-map-wrap  #gmap_canvas img {
+  max-width: none!important;
+  background: none!important
+}
+
+.contact-pink address {
+  margin-bottom: 20px;
+  display: block;
+  float: left;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.contact-pink address .contact-item {
+  border-bottom: 1px solid;
+  padding: 16px 0px;
+  font-size: 21px;
+}
+
+.contact-pink address span.title {
+  font-weight: normal;
+}
+
+.contact-pink address span.info {
+  float: right;
+  font-weight: lighter;
+}
+
+.contact-pink  .follow-links a {
+  margin-right: 10px;
+  font-size: 28px;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Contact / Contact Pink  ------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/*------------  Begins : Blognews / Blog pink   ----------------------------*/
+/*--------------------------------------------------------------------------*/
+.blog-pink {
+  padding-top: 28px;
+  padding-bottom: 50px;
+  font-family: 'Roboto';  
+}
+.blog-pink-detail-page .view-content {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+}
+.blog-pink  h2{
+  font-size: 35px;
+}
+
+.blog-pink  .view-content{
+  display: block;
+  padding-bottom: 0px;
+}
+
+.blog-pink  .view-header {
+  padding-bottom: 15px;
+}
+
+.blog-pink  .view-header a{
+  font-size: 17px;
+}
+
+.blog-pink  .blog-image {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog-pink  .blog-image  img{
+  height: auto;
+  width: 100%;
+}
+
+.blog-pink  .meta-info {
+  padding: 0;
+  padding-right: 40px;
+  margin-top: 10px;
+}
+
+.blog-pink  .posted-date {
+  display: block;
+  padding: 5px 15px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-top: 3px;
+}
+
+.blog-pink  .author {
+  display: block;
+  padding-left: 15px;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.blog-pink  .blog-title {
+  display: block;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 1.7em;
+  padding-right: 15px;
+}
+
+.blog-pink  .descrip {
+  display: block;
+  padding-left: 15px;
+  padding-top: 6px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  padding-right: 15px;
+  line-height: 30px
+}
+
+.blog-pink  .view-more {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+
+.blog-pink  .view-more a{
+  border: 1px solid;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 28px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+}
+/*--------------------------------------------------------------------------*/
+/*------------  End : Blognews / Blog pink   -------------------------------*/
+/*--------------------------------------------------------------------------*/
